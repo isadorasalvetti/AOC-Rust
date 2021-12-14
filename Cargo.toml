@@ -1,0 +1,18 @@
+# https://adventofcode.com/2018
+
+[package]
+name = "aoc2019"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "2018"
+path = "src/2018/day5.rs"
+
+[[bin]]
+name = "2021"
+path = "src/2021/day14.rs"
+
+[dependencies]
+itertools = "0.10.1"
+regex = "1.5.4"
