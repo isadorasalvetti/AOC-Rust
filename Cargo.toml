@@ -11,8 +11,9 @@ path = "src/2018/day5.rs"
 
 [[bin]]
 name = "2021"
-path = "src/2021/day17.rs"
+path = "src/2021/day25.rs"
 
 [dependencies]
 itertools = "0.10.1"
 regex = "1.5.4"
+nom = "*"
